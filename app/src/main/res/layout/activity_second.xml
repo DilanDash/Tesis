@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:contextClickable="false"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#000000">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp"
+        android:text="Iniciar sesión"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"/>
+
+        <EditText
+            android:id="@+id/etNombreUsuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:hint="Nombre de usuario"
+            android:inputType="text"
+            android:textColorHint="@color/white" />
+
+        <EditText
+            android:id="@+id/etPin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:hint="PIN"
+            android:inputType="number"
+            android:textColorHint="@color/white" />
+
+    <Button
+        android:id="@+id/btnIniciarSesion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#FF0000"
+        android:text="Iniciar sesión"
+        android:textColor="#ffffff"/>
+
+    <Button
+        android:id="@+id/btnregistro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#FF0000"
+        android:text="Registrar"
+        android:textColor="#ffffff"/>
+
+</LinearLayout>
